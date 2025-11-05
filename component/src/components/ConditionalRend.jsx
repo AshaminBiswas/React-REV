@@ -1,12 +1,12 @@
 import React from 'react'
-
+import "../App.css"
 function ConditionalRend() {
 
-    const isLoggedIn = false
+    const isLoggedIn = true
 
   return (
     <div>
-      <p>{isLoggedIn?"You are login":"please login"}</p>
+      <p className={isLoggedIn?"visible": "unvisible"}>{isLoggedIn?"You are login":"please login"}</p>
     </div>
   )
 }
