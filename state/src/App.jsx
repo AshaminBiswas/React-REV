@@ -1,9 +1,11 @@
 import React from 'react'
 import Counter from './components/Counter'
+import Toggle from './components/Toggle'
 function App() {
   return (
     <div>
-      <Counter/>
+      {/* <Counter/> */}
+      <Toggle/>
     </div>
   )
 }
