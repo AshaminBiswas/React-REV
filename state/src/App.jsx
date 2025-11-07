@@ -4,6 +4,7 @@ import Toggle from './components/Toggle'
 import Like from './components/Like'
 import User from './components/User'
 import Student from './components/Student'
+import Form from './components/Form'
 function App() {
   return (
     <div>
@@ -11,7 +12,8 @@ function App() {
       {/* <Toggle/> */}
       {/* <Like/> */}
       {/* <User/> */}
-      <Student/>
+      {/* <Student/> */}
+      <Form/>
     </div>
   )
 }
